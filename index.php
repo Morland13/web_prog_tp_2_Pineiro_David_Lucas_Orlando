@@ -43,7 +43,7 @@
 
 
 
-  <div id="divCategorias">
+  <div id="divCategorias" class="container row">
 
 
 

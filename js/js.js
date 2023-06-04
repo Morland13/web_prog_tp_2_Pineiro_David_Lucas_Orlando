@@ -45,15 +45,15 @@ fetch(`https://swapi.dev/api/`)
                 elementoCategorias.innerHTML = elementoCategorias.innerHTML + ` 
                 
                 
-                <div class="container row">
+                
 
-                <div class="col-5 m-2">
+                <div class="col-4 m-2 d-block">
                 
                 <img class="img-fluid" src="img/categories/${i}.jpg" alt="categoria">
                 <p class="text-center">${i}</p>
                 
                 </div>           
-                </div>`;
+                `;
 
             }
 
