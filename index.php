@@ -43,7 +43,7 @@
 
 
 
-  <div id="divCategorias" class="container row">
+  <div id="divCategorias" class="container row m-auto mt-4">
 
 
 

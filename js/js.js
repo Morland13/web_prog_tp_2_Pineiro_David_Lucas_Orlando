@@ -34,7 +34,7 @@ fetch(`https://swapi.dev/api/`)
 
         console.log(json);
 
-        elementoCategorias.innerHTML = ``;
+        elementoCategorias.innerHTML = `<h1>Categorias</h1>`;
         
         //href="index.php?sec=${i} 
 
@@ -47,9 +47,9 @@ fetch(`https://swapi.dev/api/`)
                 
                 
 
-                <div class="col-4 m-2 d-block">
+                <div class="col-4 d-block rounded">
                 
-                <img class="img-fluid" src="img/categories/${i}.jpg" alt="categoria">
+                <img class="img-fluid rounded border shadow border-dark" src="img/categories/${i}.jpg" alt="categoria">
                 <p class="text-center">${i}</p>
                 
                 </div>           
